@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 app
   .get('/',
-    (_, res) => {
+    (req, res) => {
       res.send('Hello ts-node!');
     }
   );

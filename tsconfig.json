@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",       
+    "module": "commonjs",  
+    "lib": [
+      "dom",
+      "esnext"
+    ],       
+    "allowJs": true, 
+    "strict": true,
+    "noImplicitAny": false,
+    "types": [],       
+    "esModuleInterop": true
+  }
+}
