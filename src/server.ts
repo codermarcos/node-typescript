@@ -1,24 +1,11 @@
-import { AddressInfo } from 'net';
-import express from 'express';
 import http from 'http';
 
-const app = express();
+import { app } from './app';
+
+const port = 3000;
 const server = http.createServer(app);
+const address = `http://localhost:${port}/`;
 
-app
-  .get('/',
-    (req, res) => {
-      res.send('Hello ts-node!');
-    }
-  );
-
-
-server
-  .listen(3000, 'localhost',
-    () => {
-      const address = <AddressInfo>server.address();
-      console.log(`server starts at http://${address.address}:${address.port}`)
-    },
-  )
+server.listen(port, console.log.bind(0, `💀 running on ${address}`));
 
 export default server;
