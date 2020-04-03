@@ -44,4 +44,4 @@ npm run lint
 
 This project exists thanks to all these people.
 
-![Marcos](https://avatars3.githubusercontent.com/u/12430365?s=460&u=12d4a3464b5a736061dbd0ccca8f57f6d08902d7&v=4)
+![Marcos](https://avatars2.githubusercontent.com/u/12430365?s=60&u=12d4a3464b5a736061dbd0ccca8f57f6d08902d7&v=4)
