@@ -1,5 +1,5 @@
 {
-  "name": "scaffolding-node",
+  "name": "node-typescript",
   "version": "0.0.1",
   "scripts": {
     "start": "ts-node-dev -r ./src/env.ts --respawn src/server.ts",
