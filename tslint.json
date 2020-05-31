@@ -17,7 +17,8 @@
 		"array-type": false,
 		"forin": false,
 		"indent": true,
-		"eofline": true
+    "eofline": true,
+    "only-arrow-functions": false
 	},
 	"rulesDirectory": [],
 	"linterOptions": {
